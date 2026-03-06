@@ -19,24 +19,25 @@ BFS explored: 87 nodes
 Dijkstra explored: 87 nodes
 A* explored: 71 nodes
 
-Technologies
-Java, Data Structures, Graph Algorithms
 
-🟩 Start
-🟥 Goal
-⬛ Wall
+## Technologies Used
+- Java  
+- Data Structures  
+- Graph Algorithms  
+
+## Grid Legend
+
+| Symbol | Meaning |
+|------|------|
+| S | Start node |
+| G | Goal node |
+| . | Empty traversable cell |
+| # | Obstacle / Wall |
+| * | Path found by the algorithm |
+| v | Visited nodes during exploration |
+
+## Visual Meaning
+🟩 Start  
+🟥 Goal  
+⬛ Wall  
 🟨 Path
-
-Symbols used in the grid:
-
-S → Start node  
-G → Goal node 
-
-. → Empty traversable cell 
-
-# → Obstacle / wall  
-
-* → Path found by the algorithm  
-
-v → Visited nodes during exploration
-
