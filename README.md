@@ -30,72 +30,13 @@ Java, Data Structures, Graph Algorithms
 Symbols used in the grid:
 
 S → Start node  
-G → Goal node  
-. → Empty traversable cell  
+G → Goal node 
+
+. → Empty traversable cell 
+
 # → Obstacle / wall  
+
 * → Path found by the algorithm  
+
 v → Visited nodes during exploration
-
-Output :
-
-Generated Grid:
-S . . . . . # # . . 
-. . . . . # . # . . 
-# . . . . . . # . . 
-. . . . . . . . . . 
-. . . . . # . . . # 
-. . . # . . . . . # 
-. . . . . . # . # . 
-. . . . . . # . . # 
-. # . # . # . . . . 
-. . . . . . . . . G 
-
-Running BFS...
-Goal reached using BFS!
-BFS explored: 82 nodes
-Path:
-S . . . . . # # . . 
-* * . . . # . # . . 
-# * . . . . . # . . 
-. * . . . . . . . . 
-. * . . . # . . . # 
-. * . # . . . . . # 
-. * . . . . # . # . 
-. * * . . . # . . # 
-. # * # . # . . . . 
-. . * * * * * * * G
-
-Running Dijkstra...
-Goal reached using Dijkstra!
-Dijkstra explored: 82 nodes
-Path:
-S . . . . . # # . .
-* * * * . # . # . .
-# * . * * * . # . .
-. * . . . * * * . .
-. * . . . # . * . #
-. * . # . . . * . #
-. * . . . . # * # .
-. * * . . . # * . #
-. # * # . # . * . .
-. . * * * * * * * G
-
-Running A*...
-Goal reached using A*!
-A* explored: 57 nodes
-S * . . . . # # . .
-* * * * . # . # . .
-# * * * * * . # . .
-. * . * * * * * . .
-. * . . * # . * . #
-. * . # * * * * . #
-. * . . . . # * # .
-. * * . . . # * * #
-. # * # . # . * * *
-. . * * * * * * * G
-
-Algorithm Comparison:
-BFS nodes explored: 82
-Dijkstra nodes explored: 82
-A* nodes explored: 57
 
